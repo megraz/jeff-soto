@@ -1,0 +1,73 @@
+body {
+
+    font-family: Arial, Verdana, "Comic sans Ms";
+    color:black;
+
+}
+h1{
+font-family: Arial, Verdana, "Comic sans Ms";
+font-size: 22px;
+font-style: normal;
+padding-left: 20px;
+padding-top: 20px;
+text-transform: uppercase;
+}
+
+nav li{
+display: inline-block;
+}
+nav ul {
+    text-align: right;
+    margin: 20;
+}
+nav a:hover{
+    color: black;
+}
+nav a {
+    color: silver;
+    text-decoration: none;
+}
+
+section {
+display: flex; 
+align-content:stretch;
+margin: auto;
+}
+
+svg {
+    display: flex;
+    width: 30px;
+    background-color: rgb(230,230,230);
+}
+
+figure {
+    display: inline-block;
+    flex-wrap: wrap;  
+    align-content:stretch;
+    clear: left;
+    margin: 0;
+}
+
+figcaption{
+    text-align: left;
+    position: relative;
+}
+
+footer{
+    color: silver;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: baseline;
+}
+
+footer p{
+text-shadow: 0px 1px 1px rgba(0,0,0,0.5); 
+}
+
+footer :hover{
+    color: black;
+    text-decoration: none;
+}
+
+
