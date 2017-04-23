@@ -21,10 +21,11 @@ text-transform: uppercase;
 
 nav li{
 display: inline-block;
+margin: 5px;
 }
 nav ul {
     text-align: right;
-    margin: 20;
+    margin: 10px;
 }
 nav a:hover{
     color: black;
@@ -33,9 +34,13 @@ nav a {
     color: silver;
     text-decoration: none;
 }
+nav.secondaire {
+    display: inline-block;
+}
+
 
 section {
-display: flex; 
+display: inline; 
 justify-content: space-around;
 margin: auto;
 background-color: red;
@@ -77,5 +82,11 @@ footer :hover{
      display: block;
      block-size: 20em;
  }
-
+main{
+    box-sizing: border-box;
+    width: 35%;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
 
