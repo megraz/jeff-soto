@@ -83,6 +83,41 @@ main{
     flex-direction: row;
 }
 
+#container :hover{
+    color: white;
+	background: transparent;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+}
+
+figure {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+figcaption {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .5em;
+    opacity: 0;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+}
+}
+
+
 figcaption{
     text-align: left;
     position: relative;
@@ -93,6 +128,7 @@ margin-top: 50px;
 margin-left: 30px;
 font-weight: bold;
 }
+
 section .newsletter button{
     background-color: #cbb8b3;
     height: 30px;
@@ -112,18 +148,24 @@ footer .backtotop{
 }
 
 footer .baseline{
+    color: #e3dad8;
     display: flex;
     justify-content: center;
     display: flex;
     align-items: baseline;
 }
 
-footer p{
-text-shadow: 0px 1px 1px rgba(0,0,0,0.5); 
+footer .backtotop p{
+    color: ghostwhite;
+    text-decoration: none; 
 }
-
-footer :hover{
-    color: black;
+footer .baseline a:hover{
+    color:gray;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+}
+footer .backtotop :hover{
+    color:gray;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
 }
 
 
