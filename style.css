@@ -159,6 +159,7 @@ footer .backtotop{
 
 footer .baseline{
     color: #e3dad8;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: baseline;
