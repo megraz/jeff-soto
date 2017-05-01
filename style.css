@@ -5,6 +5,7 @@ body {
     color:black;
 
 }
+
 header a {
     text-decoration: none;
     color:black;
@@ -19,32 +20,49 @@ padding-top: 20px;
 text-transform: uppercase;
 }
 
-nav li{
+#menu a{
 display: inline-block;
 margin: 5px;
 }
-nav ul {
+
+#menu {
     text-align: right;
     margin-top: 0;
     margin-right: 7px;
     float: right;
 }
-nav a:hover{
+#menu a:hover{
     color: black;
 }
-nav a {
+#menu a {
     color: silver;
     text-decoration: none;
 }
-nav.secondaire {
+.secondaire {
     display: flex;
     float: right;
     opacity: 0.4;
 }
 
+.secondaire ul{
+    margin: -10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.secondaire li{
+    list-style: none;
+    display: inline-flex;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
 section {
-display: inline; 
-position: relative;
+    display: inline; 
+    position: relative;
 }
 
 figure {
@@ -56,11 +74,11 @@ figure {
 
 
 svg {
-    display: block;
+    display: block;    
     background-color: rgb(230,230,230);
     height: 40px;
     width: 40px;
-    border-radius: 25px;
+    border-radius: 20px;
     margin-top: 0;
 }
 
