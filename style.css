@@ -146,20 +146,21 @@ figcaption{
     position: relative;
 }
 
-section .newsletter{
-    margin-top: 50px;
-    margin-left: 30px;
+.newsletter{
+    margin-top: 80px;
+    margin-bottom: 50px;
     font-weight: bold;
     text-align: center;
 }
 
-section .newsletter button{
+.newsletter button{
     background-color: #cbb8b3;
     height: 30px;
     border-radius: 14px;
+    margin-left: 1em;
 }
 
-section .newsletter button:hover{
+.newsletter button:hover{
     color: black;
 	background: #dacbc8;
 }
